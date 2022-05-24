@@ -17,7 +17,7 @@ void loop() {
   Serial.print(xValue);
   Serial.print("\t");
   Serial.print(yValue);
-  Serial.print("\n");
+  Serial.print("\t");
   Serial.print(button);
-  delay(500);
+  delay(100);
 }
